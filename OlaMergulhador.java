@@ -70,9 +70,33 @@ public class OlaMergulhador {
 
      */
 
+    int counter = 20; // Variável de instância
+    static float PI = 3.14f; // Variável de classe
+
 
     public static void main(String[] args) {
-        System.out.println("Olá mergulhador!");
+
+        // Linguagem fortemente tipada, todas as variáveis devem ser criadas com um tipo fixo.
+        // Code Convention da Oracle, uma declaração de variável por linha;
+
+        // DesignPattern de java - Lower cammel case
+        int age = 30; // Variável local (dentro do corpo do método)
+
     }
+
+    public static void print(int param) { // Argumento de método
+        System.out.println(param);
+    }
+
+    /*
+    Nomes de variáveis em Java são sensíveis a maiúsculas e minúsculas. O nome da variável employee não é o mesmo que Employee ou EMPLOYEE.,
+    Nomes de variáveis em Java devem começar com uma letra, ou o caractere $ ou . Após o primeiro caractere em um nome de variável Java, o nome pode conter números, $ ou .
+    Nomes de variáveis não podem ser palavras reservadas em Java. Por exemplo, as palavras break ou continue são reservadas em Java. Portanto, você não pode nomear suas variáveis com elas.
+    Nomes de variáveis devem ser escritos em minúsculas. Por exemplo, variable ou apple.
+    Se os nomes das variáveis consistirem em várias palavras, siga a notação camelCase. Por exemplo, deptName ou firstName.
+    Campos finais estáticos (constantes) devem ser nomeados em todas as maiúsculas, normalmente usando um sublinhado _ para separar as palavras no nome. Por exemplo, LOGGER ou INTEREST_RATE.
+     */
+
+    
 
 }
