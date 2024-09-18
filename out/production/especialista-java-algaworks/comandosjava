@@ -1,0 +1,10 @@
+# compilação antes da build
+javac NomeDoArquivo.java > NomeDoArquivo.class arquivo bytecode.
+
+No caso de venda de uma aplicação black box.
+
+java NomeDoArquivo (Design Pattern Case Sensitive)
+
+
+
+
