@@ -1,0 +1,10 @@
+
+
+JVM has five type os memory areas:
+
+- Method Area: Out methods, constructors, and methods need a dedicated place to be stored, static variables and static methods also but Before Java 8. This dedicated memory space is called the Method Area.
+- Heap Area: The Heap Area in the JVM is the memory space where all objects and instances are stored at runtime.
+- Stack Area: The Stack Area in the JVM is used for storing local variables, method call information such a parameters, and stack will be created for each thread.
+- Program Counter Area: (PC) In the JVM hold the address of the next instruction to be execute for each thread.
+- Native Method: The Native Method Area in the NVM is a dedicated space for handling native methods rwritten in languages like C or C++.
+
